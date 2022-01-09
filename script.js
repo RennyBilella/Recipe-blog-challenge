@@ -1,0 +1,1 @@
+document.getElementById("ingredient1").classList.toggle("cheke")

@@ -1,0 +1,326 @@
+                    /*fonts*/
+                    /* playfair */
+                    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    body {
+                        padding: 0 240px;
+                    }
+
+                    main img {
+                        width: 80%;
+                        padding: 20px 20px 45px 100px;
+                    }
+
+
+                    #ingredient1:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient2:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient3:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient4:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient5:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient6:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient7:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient8:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient9:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient10:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient11:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient12:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient13:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient14:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient15:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient16:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    #ingredient17:checked+label {
+                        text-decoration-line: line-through;
+                        color: gray;
+                    }
+
+                    header h1 {
+                        font-size: 48px;
+                        padding-top: 52px;
+                        font-family: 'Playfair Display', serif;
+                    }
+
+                    header p {
+                        font-family: 'Montserrat', sans-serif;
+                        width: 625px;
+                        font-size: 20px;
+                        padding: 20px;
+                    }
+
+                    ul li {
+                        list-style: none;
+
+                    }
+
+                    .intructions .material-icons {
+                        color: orange;
+                        font-size: 30px;
+                        padding-right: 10px;
+                        padding-top: 10px;
+                    }
+
+                    .container {
+                        display: grid;
+                        grid-template-areas: "ingredents info";
+                    }
+
+                    .info {
+                        grid-area: info;
+                        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+                        width: fit-content;
+                        height: fit-content;
+                        font-size: 24px;
+                        font-family: 'Montserrat', sans-serif;
+                        line-height: 25px;
+                        padding: 10px;
+                    }
+
+                    .info .material-icons {
+                        font-size: 60px;
+                        padding-right: 10px;
+                        padding-top: 10px;
+
+                    }
+
+                    .test {
+                        display: flex;
+                        width: 212px;
+                    }
+
+                    .test p {
+                        padding-top: 20px;
+                    }
+
+                    .ingredients {
+                        grid-area: ingredents
+                    }
+
+                    .ingredients h1 {
+                        padding-bottom: 30px;
+                    }
+
+                    .ingredients li {
+                        font-size: 24px;
+                        font-family: 'Montserrat', sans-serif;
+                        line-height: 25px;
+                        padding: 10px;
+                    }
+
+
+                    .intructions h1 {
+                        padding: 30px 0;
+                    }
+
+                    .intructions li {
+                        font-size: 26px;
+                        font-family: 'Montserrat', sans-serif;
+                        line-height: 40px;
+                        padding: 10px;
+                        width: 60%;
+                    }
+
+                    .dire {
+                        font-size: 26px;
+                        font-family: 'Montserrat', sans-serif;
+                        line-height: 40px;
+                        padding: 10px;
+                        width: 60%;
+                    }
+
+                    footer {
+                        text-align: center;
+                        font-size: 18px;
+                        font-family: 'Montserrat', sans-serif;
+                        line-height: 25px;
+                        padding: 10px;
+                    }
+
+                    .referal {
+                        font-size: 28px;
+                        padding: 30px;
+                        color: grey;
+                    }
+
+                    @media screen and (max-width: 440px) {
+                        body {
+                            padding: 20px;
+                        }
+
+                        .title {
+                            padding-top: 15px;
+                        }
+
+                        .description {
+                            width: 100%;
+                        }
+
+                        .ingredients li {
+                            font-size: 14px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 25px;
+                            padding: 10px;
+                        }
+
+                        .info .material-icons {
+                            font-size: 30px;
+
+                        }
+
+                        .info {
+                            grid-area: info;
+                            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+                            width: fit-content;
+                            height: fit-content;
+                            font-size: 14px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 25px;
+                            padding: 10px;
+                        }
+
+                        main img {
+                            width: 100%;
+                            padding: 0 0 25px;
+                        }
+
+                        .intructions li {
+                            font-size: 16px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 40px;
+                            padding: 10px;
+                            width: 100%;
+                        }
+
+                        .container {
+                            display: block;
+                        }
+
+                        .referal {
+                            font-size: 16px;
+                        }
+                    }
+
+                    @media screen and (max-width: 768px) {
+
+                        .intructions li {
+                            font-size: 18px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 40px;
+                            padding: 10px;
+                            width: 88%;
+                        }
+
+                        .ingredients li {
+                            font-size: 18px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 25px;
+                            padding: 10px;
+                        }
+
+                        body {
+                            padding: 5%;
+                        }
+
+                        .referal {
+                            font-size: 16px;
+                        }
+
+                        .info .material-icons {
+                            font-size: 30px;
+                        }
+
+                        .info {
+                            font-size: 13px;
+                        }
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        body {
+                            padding: 5%;
+                        }
+
+                        .intructions li {
+                            font-size: 26px;
+                            font-family: 'Montserrat', sans-serif;
+                            line-height: 40px;
+                            padding: 10px;
+                            width: 80%;
+                        }
+
+                        .referal {
+                            font-size: 18px;
+                        }
+                        .info .material-icons {
+                            font-size: 30px;
+                         
+                        }
+                    }
